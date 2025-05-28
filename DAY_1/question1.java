@@ -1,7 +1,6 @@
 import java.util.*;
  
 public class question1{
-
    public static void main(String args[]){
         Scanner in=new Scanner(System.in);
         System.out.println("Enter number of rows");
@@ -12,11 +11,11 @@ public class question1{
                 int bottom = j;
                 int right = (2*n - 2) - j;
                 int left = (2*n - 2) - i;
-                System.out.print(n- Math.min(Math.min(top,bottom), Math.min(left,right)) + " ");
+                System.out.print(n-(Math.min(Math.min(top,bottom), Math.min(left,right))) + " ");
             }
-            System.out.println("");
+            System.out.println();
             in.close();
-    }
-}
+        }
+    }
 
 }
